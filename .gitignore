@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Virtual env folders
+backend/venv/
+backend/Lib/
+backend/Include/
+backend/Scripts/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Large binaries
+*.dll
+*.so
+*.dylib
+
+# OS
+.DS_Store
+
+# Media uploads
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.avi
+*.mov
