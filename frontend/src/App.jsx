@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import WaveformPlayer from "./WaveformPlayer.jsx";
 
-const API_BASE = "http://172.22.6.216:8000"; // or http://localhost:8000
+const API_BASE = "https://aimeetingnotes-backend.onrender.com"; // or http://localhost:8000
 
 export default function App() {
   const [file, setFile] = useState(null);
